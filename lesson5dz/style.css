@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.block {
+	width: 300px;
+	height: 300px;
+	background-color: #500;
+	margin: 5px;
+	display: inline-block;
+}
+.one {
+	background-color: orange;
+}
+.two {
+	background-color: green;
+}
+.three {
+	background-color: greenyellow;
+}
+.four {
+	background-color: grey;
+}
+.five {
+	background-color: goldenrod;
+}
+.six {
+	background-color: springgreen;
+}
+.seven {
+	background-color: seagreen;
+}
+.eight {
+	background-color: saddlebrown;
+}
+.nine {
+	background-color: navajowhite;
+}
+.ten {
+	background-color: teal;
+}

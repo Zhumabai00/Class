@@ -1,0 +1,11 @@
+h1 {
+	text-align: center;
+	color: aqua;
+	background-color: grey;
+}
+
+div {
+	width: 300px;
+	height: 300px;
+	background-color: blueviolet;
+}

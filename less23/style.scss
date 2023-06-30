@@ -1,0 +1,15 @@
+$fs: 50px;
+$color: rgb(61, 211, 88);
+@mixin foredit ($mix, $fon) {
+	color: $mix;
+	font-size: $fon;
+}
+
+.block {
+	&__title {
+		@include foredit(blue, 100px);
+		&__span {
+			@include foredit(pink, 200px);
+		}
+	}
+}

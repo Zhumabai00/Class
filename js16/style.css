@@ -1,0 +1,12 @@
+body {
+	text-align: center;
+}
+.title {
+	color: blueviolet;
+}
+.text {
+	background-color: tomato;
+}
+.new {
+	border: 5px solid blue;
+}

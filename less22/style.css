@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.row {
+	flex-wrap: nowrap;
+}
+.box {
+	/* width: 200px; */
+	height: 200px;
+	background-color: turquoise;
+	margin: 5px;
+}

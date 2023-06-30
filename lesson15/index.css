@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.block {
+	width: 250px;
+	height: 250px;
+	background-color: teal;
+	/* animation-name: block;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear; */
+	animation: block 4s linear 2s infinite;
+	position: relative;
+}
+.block:hover {
+	animation-play-state: paused;
+}
+@keyframes block {
+	0% {
+		top: 0;
+		left: 0;
+	}
+	20% {
+		top: 400px;
+		left: 0;
+	}
+	40% {
+		left: 400px;
+		top: 400px;
+		background-color: tomato;
+	}
+	60% {
+		top: 0px;
+		left: 400px;
+		background-color: forestgreen;
+	}
+	80% {
+		left: 0;
+	}
+}

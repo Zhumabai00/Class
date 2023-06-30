@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.block {
+	width: 15rem;
+	height: 300px;
+	background-color:tomato;
+	margin: 5px;
+	display: inline-block;
+}
+p {
+	font-size: 1rem;
+}

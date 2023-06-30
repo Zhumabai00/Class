@@ -1,0 +1,52 @@
+@media (max-width: 680px) {
+  .header__menu {
+    overflow: hidden;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all .7s ease-in-out;
+  }
+	.header__menu__list {
+    width: 80%;
+    background-color: #252525;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+	.header__menu__list > li {
+    width: 100%;
+  }
+  .header__menu__list > li > a {
+    padding: 10px;
+    display: block;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid white;
+  }
+	.header__menu__btn {
+		display: block;
+	}
+	.col-6 {
+		width: 100%;
+	}
+}
+
+.active {
+  width: 100%;
+  right: 0;
+  opacity: 1;
+  overflow: visible;
+}
+
+
+
+
+
+
